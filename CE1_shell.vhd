@@ -42,6 +42,8 @@ signal B_NOT, D, E : STD_LOGIC;
 
 begin
 
+--Commenting on this to see how Github works
+
 B_NOT <= not B;
 D <= A and B_NOT;
 E <= B and C;
